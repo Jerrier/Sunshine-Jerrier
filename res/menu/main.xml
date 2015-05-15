@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.sunshine.MainActivity" >
+
+    <item
+        android:id="@+id/action_map"
+        android:icon="@drawable/action_map"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_map"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/action_refresh"
+        android:showAsAction="always"
+        android:orderInCategory="100"
+        android:title="@string/action_refresh"/>
+
+</menu>
